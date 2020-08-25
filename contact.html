@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>About</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact</h1>
+        <h2>Stel een vraag</h2>
+        <hr>
+        <nav>
+            <ul class="headerNavigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main class="black-border">
+        <h3>Neem contact op via het contactformulier</h3>
+        <form name="contact" method="POST" data-netlify="true">
+            <label>Naam <input type="text" name="naam" required></label><br>
+            <label>Email <input type="email" name="email" required></label><br>
+            <textarea name="vraag" cols="30" rows="10" placeholder="Stel je vraag:"></textarea><br>
+            <button type="submit" class="btnHeader">VERSTUUR</button>
+        </form>
+    </main>
+    <footer id="green-background" class="black-border">copywrite@jurian</footer>
+</body>
+
+</html>
